@@ -36,7 +36,7 @@ const displayGen1 = function(gen) {
  */
 function displayGen2(gen) {
     // Remove any children. In case a <p> was already printed.
-    outputWrapper.innerHTML = '';
+    outputWrapper.textContent = '';
     let ot = document.createElement('P');
     ot.id = 'output-text';
     ot.innerText = gen;

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* display: ; */
+    background-color: #99bbad;
+    font-family:'shadows into light', sans-serif;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+}

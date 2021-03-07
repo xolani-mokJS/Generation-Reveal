@@ -1,11 +1,8 @@
 const form = document.getElementById("my-form");
 const outputWrapper = document.querySelector('.output-text');
 
-/**
- * Another way of defining a function (called arrow function or something)
- *  the function is the `(var)=> {}` part. But here we assign it to a constant
- *
- * Source: https://edition.cnn.com/2013/11/06/us/baby-boomer-generation-fast-facts/index.html
+/*
+ Source: https://edition.cnn.com/2013/11/06/us/baby-boomer-generation-fast-facts/index.html
  */
 const calcGen = (yob) => {
     if (yob <= 1924) {
@@ -30,16 +27,12 @@ const displayGen1 = function(gen) {
     ot.innerText = `You're a ${gen}!`;
 }
 
-/**
- * You could also generate the <p> element when you need it,
- *  so that you don't have an empty <p> lying around
- */
 function displayGen2(gen) {
     // Remove any children. In case a <p> was already printed.
     outputWrapper.textContent = '';
     let ot = document.createElement('P');
     ot.id = 'output-text';
-    ot.innerText = gen;
+    ot.innerText = `You are part of the ${gen} generation!`;
     outputWrapper.appendChild(ot);
 }
 

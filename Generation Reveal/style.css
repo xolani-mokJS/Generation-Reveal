@@ -11,6 +11,7 @@ body{
     background-image: url(background/4909638.jpg);
     height: 100vh;
     overflow: hidden;
+    font-family: 'Tajawal';
 }
 h1{
     font-size: 50px;
@@ -59,23 +60,26 @@ p{
     border-radius: 5px;
     display: inline-block;
     outline: none; 
-    /* height: 25px; */
+    height: 25px;
 }
 
+/* .outputText{
+    margin: 15px;
+} */
+
 .myButton{
+    text-align: center;
     cursor: pointer;
     color: rgb(2, 2, 2);
     background: rgb(172, 172, 172);
-    height: 28px;
-    width: 55px;
     border: none;
     border-radius: 5px;
     font-size: 15px;
-    outline: none;
+    padding: 10px 25px;
 }
 
 .myButton:hover{
-    filter: brightness(110%);
+    filter: brightness(90%);
 }
 .footer{
     align-items: center;
